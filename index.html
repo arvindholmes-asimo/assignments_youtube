@@ -19,7 +19,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark nav-bg fixed-top" aria-label="Fourth navbar example">
-            <div class="container-fluid">
+            <div class="container-fluid justify-content-between">
                 <div class="flex-nowrap">
                     <a>
                         <img src="./icons/hamburger.svg" class="img-fluid" alt="">
@@ -31,21 +31,21 @@
                     </a>
 
                 </div>
-                <div class=" d-flex align-items-center col-3  m-auto
+                <div class=" d-flex align-items-center  m-auto
                 ">
-                    <div class="d-flex me-auto">
-                        <form role="search">
-                            <input class="form-control search-bar flex-grow-1" type="search" placeholder="Search"
-                                aria-label="Search">
-                        </form>
-                        <button class="btn btn-sm search-btn"><img src="./icons/search.png" alt=""></button>
-
+                    <div class="input-group">
+                        <input class="form-control search-bar flex-grow-1" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button"><img src="./icons/search.png"
+                                    alt=""></button>
+                        </div>
                     </div>
-                    <div class="d-none d-md-block"><img width="30" src="./icons/micIcon.svg" alt="mic">
+                    <div class="ms-2 d-none d-md-block"><img width="30" src="./icons/micIcon.svg" alt="mic">
                     </div>
 
                 </div>
-                <div class=" col-sm-4 d-none d-lg-block ">
+                <div class=" d-none d-lg-block ">
                     <ul class="unstyled-list d-flex justify-content-end column-gap-4 align-center m-auto">
                         <a href="#"><img src="./icons/videoplus.svg" width="30" height="30" alt="">
 
@@ -75,7 +75,7 @@
                     <div class="primary col-12 col-lg-7  left_space">
                         <div class="row">
                             <div class="video-container bg-dark my-2">
-                                <video poster="./icons/Youtube player.svg" paused height="360" width="640"></video>
+                                <video poster="./icons/Youtube player.svg" height="360" width="640"></video>
 
                             </div>
                             <div class="title-section d-flex flex-column">
@@ -86,10 +86,15 @@
                                             <span>576.969 views. Oct 8.2023</span>
                                         </div>
 
-                                        <div><img class="me-1" width="20" height="20" src="./icons/Liked.svg" alt=""> <span>1.7k</span> </div>
-                                        <div><img class="me-1" width="20" height="20" src="./icons/DisLiked.svg" alt=""> <span>632</span></div>
-                                        <div><img class="me-1" width="20" height="20" src="./icons/Share.svg" alt=""> <span>Share</span></div>
-                                        <div><img class="me-1" width="20" height="20" src="./icons/Save.svg" alt=""> <span>Save</span></div>
+                                        <div><img class="me-1" width="20" height="20" src="./icons/Liked.svg"
+                                                alt="LIKE"> <span>1.7k</span> </div>
+                                        <div><img class="me-1" width="20" height="20" src="./icons/DisLiked.svg"
+                                                alt="DISLIKE"> <span>632</span></div>
+                                        <div><img class="me-1" width="20" height="20" src="./icons/Share.svg"
+                                                alt="SHARE"> <span>SHARE</span></div>
+                                        <div><img class="me-1" width="20" height="20" src="./icons/Save.svg" alt="SAVE">
+                                            <span>SAVE</span>
+                                        </div>
                                         <div>...</div>
 
 
@@ -154,10 +159,13 @@
                                             <div class="flex-grow-1">
                                                 <h5>James Groove <span class="text-muted">8 hours ago</span></h5>
                                                 <p>Thanks for making learning easy</p>
-                                                <div><img class="me-1" width="20" height="20" src="./icons/Liked.svg" alt=""> <span>3</span>
-                                                <img class="me-1" width="20" height="20" src="./icons/DisLiked.svg" alt=""><span class="ms-2">Reply</span></div>
+                                                <div><img class="me-1" width="20" height="20" src="./icons/Liked.svg"
+                                                        alt=""> <span>3</span>
+                                                    <img class="me-1" width="20" height="20" src="./icons/DisLiked.svg"
+                                                        alt=""><span class="ms-2">Reply</span>
+                                                </div>
                                             </div>
-                                           
+
                                         </div>
                                     </div>
                                     <div class="field-group mb-3">
@@ -171,10 +179,13 @@
                                             <div class="flex-grow-1">
                                                 <h5>Alan cooper<span class="text-muted">4 hours ago</span></h5>
                                                 <p>Wow , world is full of different skills</p>
-                                                <div><img class="me-1" width="20" height="20" src="./icons/Liked.svg" alt=""> <span>3</span>
-                                                <img class="me-1" width="20" height="20" src="./icons/DisLiked.svg" alt=""><span class="ms-2">Reply</span></div>
+                                                <div><img class="me-1" width="20" height="20" src="./icons/Liked.svg"
+                                                        alt=""> <span>3</span>
+                                                    <img class="me-1" width="20" height="20" src="./icons/DisLiked.svg"
+                                                        alt=""><span class="ms-2">Reply</span>
+                                                </div>
                                             </div>
-                                           
+
                                         </div>
                                     </div>
                                 </div>
@@ -203,8 +214,9 @@
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h5 class="mt-0 mb-1">List-based media object</h5>
-                                        <p>Cras sit amet nibh libero, in gravida nulla.</p>
+                                        <p class="regular mt-0 mb-1">Season 1 ep1</p>
+                                       <p class="text-size">James Groove</p>
+                                       <p class="text-size">1M views . 3years ago </p>
                                     </div>
                                 </li>
                                 <li class="media my-4 d-flex">
@@ -216,8 +228,9 @@
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h5 class="mt-0 mb-1">List-based media object</h5>
-                                        <p>Cras sit amet nibh libero, in gravida nulla.</p>
+                                        <p class="regular mt-0 mb-1">Season 1 ep2</p>
+                                       <p class="text-size">James Groove</p>
+                                       <p class="text-size">1M views . 3years ago </p>
                                     </div>
                                 </li>
                                 <li class="media my-4 d-flex">
@@ -229,8 +242,9 @@
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h5 class="mt-0 mb-1">List-based media object</h5>
-                                        <p>Cras sit amet nibh libero, in gravida nulla.</p>
+                                        <p class="regular mt-0 mb-1">Season 1 ep3</p>
+                                       <p class="text-size">James Groove</p>
+                                       <p class="text-size">1M views . 3years ago </p>
                                     </div>
                                 </li>
                                 <li class="media my-4 d-flex">
@@ -242,8 +256,9 @@
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h5 class="mt-0 mb-1">List-based media object</h5>
-                                        <p>Cras sit amet nibh libero, in gravida nulla.</p>
+                                        <p class="regular mt-0 mb-1">Season 1 ep4</p>
+                                       <p class="text-size">James Groove</p>
+                                       <p class="text-size">1M views . 3years ago </p>
                                     </div>
                                 </li>
 
@@ -256,8 +271,9 @@
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h5 class="mt-0 mb-1">List-based media object</h5>
-                                        <p>Cras sit amet nibh libero, in gravida nulla.</p>
+                                        <p class="regular mt-0 mb-1">Season 2 ep1</p>
+                                        <p class="tex-sizet">James Groove</p>
+                                        <p class="tex-sizet"1M views . 3years ago e</p>
                                     </div>
                                 </li>
 
@@ -270,8 +286,51 @@
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h5 class="mt-0 mb-1">List-based media object</h5>
-                                        <p>Cras sit amet nibh libero, in gravida nulla.</p>
+                                        <p class="regular mt-0 mb-1">Season 2 ep2</p>
+                                       <p class="text-size">James Groove</p>
+                                       <p class="text-size">1M views . 3years ago </p>
+                                    </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                    <div class="card me-2">
+                                        <div class="card-body p-1  ">
+
+                                            <img height="90" width="160" src="./icons/netf.svg"
+                                                alt="Generic placeholder image">
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="regular mt-0 mb-1">Season 2 ep3</p>
+                                       <p class="text-size">James Groove</p>
+                                       <p class="text-size">1M views . 3years ago </p>
+                                    </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                    <div class="card me-2">
+                                        <div class="card-body p-1  ">
+
+                                            <img height="90" width="160" src="./icons/spottify2.svg  "
+                                                alt="Generic placeholder image">
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="regular mt-0 mb-1">Season 3 ep4</p>
+                                       <p class="text-size">James Groove</p>
+                                       <p class="text-size">1M views . 3years ago </p>
+                                    </div>
+                                </li>
+                                <li class="media my-4 d-flex">
+                                    <div class="card me-2">
+                                        <div class="card-body p-1  ">
+
+                                            <img height="90" width="160" src="./icons/insta.svg"
+                                                alt="Generic placeholder image">
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="regular mt-0 mb-1">Season 4 ep5</p>
+                                       <p class="text-size">James Groove</p>
+                                       <p class="text-size">1M views . 3years ago </p>
                                     </div>
                                 </li>
 
@@ -284,8 +343,9 @@
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h5 class="mt-0 mb-1">List-based media object</h5>
-                                        <p>Cras sit amet nibh libero, in gravida nulla.</p>
+                                        <p class="regular mt-0 mb-1">Season 5 ep6</p>
+                                       <p class="text-size">James Groove</p>
+                                       <p class="text-size">1M views . 3years ago </p>
                                     </div>
                                 </li>
 

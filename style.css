@@ -47,12 +47,18 @@ video{
     background: #212121;
 }
 .search-btn{
-    background: #c4c4c4;
-    margin: auto;
+    background: #303030;
+    /* margin: auto; */
+
+}
+.form-control .search-btn{
+    border-radius: none !important;
+
 }
 .search-bar{
     min-width: 280px;
     color: #fff;
+    border-radius: none !important;
 }
 .card-body ,.card{ 
     background: none!important;
@@ -61,6 +67,10 @@ video{
 }
 
 
-@media screen  and (max-width:576){
-
+.regular{
+    font-size: 14px;
+}
+.text-size{
+    font-size: 12px;
+    margin-bottom: 0;
 }
