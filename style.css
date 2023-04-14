@@ -3,8 +3,9 @@
     margin: 0;padding: 0;
 }
 
-html{
-    background:#1e1e1e;
+body{
+    background:#4e4e4e;
+    color: #fff !important;
 }
 .youtube-icon{
     height: 44px;
@@ -34,4 +35,32 @@ video{
 }
 .right_space{
     padding: 20px  30px 0 0 ;
+}
+
+.bg-round{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+.nav-bg{
+    background: #212121;
+}
+.search-btn{
+    background: #c4c4c4;
+    margin: auto;
+}
+.search-bar{
+    min-width: 280px;
+    color: #fff;
+}
+.card-body ,.card{ 
+    background: none!important;
+    padding: 0;
+    border: none;
+}
+
+
+@media screen  and (max-width:576){
+
 }
