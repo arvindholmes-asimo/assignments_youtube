@@ -48,17 +48,19 @@ video{
 }
 .search-btn{
     background: #303030;
-    /* margin: auto; */
+    padding: 4px;
+    outline: none;
+    width: 64px;
 
-}
-.form-control .search-btn{
-    border-radius: none !important;
 
 }
 .search-bar{
     min-width: 280px;
     color: #fff;
-    border-radius: none !important;
+    background: #121212;
+    border: 1px solid #303030;
+    outline: #212121;
+    padding-left: 4px;
 }
 .card-body ,.card{ 
     background: none!important;
