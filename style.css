@@ -8,8 +8,7 @@ body{
     color: #fff !important;
 }
 .youtube-icon{
-    height: 44px;
-    width: 50px;
+    width: 30px;
     margin-right: 10px;
 }
 
@@ -50,12 +49,14 @@ video{
     background: #303030;
     padding: 4px;
     outline: none;
-    width: 64px;
+    max-width: 100px;
+    height: 30px;
 
 
 }
 .search-bar{
-    min-width: 280px;
+    min-width: 80px;
+    height: 30px;
     color: #fff;
     background: #121212;
     border: 1px solid #303030;
@@ -75,4 +76,22 @@ video{
 .text-size{
     font-size: 12px;
     margin-bottom: 0;
+}
+.display_text{
+    font-size: 10px;
+}
+@media screen and (min-width:600px){
+    .search-bar{
+        min-width: 280px;
+        height: auto;
+    }
+    .search-btn{
+        width: 60px;
+        height: auto;
+
+    }
+    .youtube-icon{
+        width: 50px;
+    }
+
 }
